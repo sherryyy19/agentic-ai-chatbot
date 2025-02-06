@@ -26,7 +26,7 @@ Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
 
 1. Create an ai_agent.py file, and set up LLM Tools and AI Agent with Search Tool Functionality.
 2. Install these Dependencies in phase-1 with pipenv:
-   `pipenv install `langchain_groq` `langchain_openai` `langchain_community` `langgraph``
+   `pipenv install langchain_groq` `langchain_openai` `langchain_community` `langgraph`
 
 ### Phase-2 (Setup Backend with FastAPI)
 
