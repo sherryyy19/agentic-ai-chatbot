@@ -10,9 +10,13 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 - The backend is built with FastAPI for scalability and efficiency.
 - Uses LangChain and LangGraph for intelligent agent interactions.
 
-## Archtectural Diagram
+## Architectural Diagram
+Below is the architectural diagram of the project:
+<p align="center">
+  <img alt="Architectural Diagram" width="400" src="https://github.com/sherryyy19/Agentic-AI-Chatbot/blob/main/architecture%20diagram.png?raw=true">
+</p>
 
-<img align ="center" alt="Architectral Diagram" width = "400" src="https://github.com/sherryyy19/Agentic-AI-Chatbot/blob/main/architecture%20diagram.png?raw=true">
+**Figure:** This diagram illustrates the architecture of our AI chatbot project.
 
 ## Installation and Setup Guide
 
