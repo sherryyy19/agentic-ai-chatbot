@@ -10,23 +10,30 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 - The backend is built with FastAPI for scalability and efficiency.
 - Uses LangChain and LangGraph for intelligent agent interactions.
 
+## Installation and Setup Guide
 
-## Phase -1 (Create AI Agent)
+### Using Pipenv
+1. Install Pipenv (if not already installed):
+   `pip install pipenv`
+
+### Phase-1 (Create AI Agent)
 
 1. Setup API Keys for Groq, Tavily, and OpenAI.
 2. Setup LLM Tools.
 3. Setup AI Agent with Search Tool Functionality.
 
+Use this command to load environment variables: 
 `pipenv install langchain_groq langchain_openai langchain_community`
+
 `pipenv install langgraph`
 
-## Phase -2 (Setup Backend with FastAPI)
+### Phase-2 (Setup Backend with FastAPI)
 
 1. Setup Pydantic Model (Schema Validation).
 2. Setup AI Agnet from FrontEnd Request.
 3. Run the App and explore Swaggers UI docs.
 
-## Phase -3 (Setup FrontEnd)
+### Phase-3 (Setup FrontEnd)
 
 1. Setup UI with Streamlit.
 2. Connect with the backend via URL.
