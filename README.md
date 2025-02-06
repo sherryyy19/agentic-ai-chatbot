@@ -34,7 +34,7 @@ Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
 2. Setup AI Agnet from FrontEnd Request.
 3. Run the App and explore Swaggers UI docs.
 4. Install these Dependencies in phase-2 with pipenv:
-   `pipenv install fastapi uvicorn`
+   `pipenv install fastapi` `uvicorn`
    
 ### Phase-3 (Setup FrontEnd)
 
