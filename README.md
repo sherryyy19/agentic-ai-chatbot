@@ -12,8 +12,8 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 ## Installation and Setup Guide
 
-### Using Pipenv
-1. Install Pipenv (if not already installed):
+### Using pipenv
+1. Install pipenv (if not already installed):
 
    `pip install pipenv`
 
@@ -24,16 +24,18 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
 ### Phase-1 (Create AI Agent)
 
-1. Create an ai_agent.py file, Setup LLM Tools and AI Agent with Search Tool Functionality.
-2. Install these Dependencies with Pipenv:
-   `langchain_groq` `langchain_openai` `langchain_community` `langgraph`
+1. Create an ai_agent.py file, and set up LLM Tools and AI Agent with Search Tool Functionality.
+2. Install these Dependencies in phase-1 with pipenv:
+   `pipenv install langchain_groq langchain_openai langchain_community langgraph`
 
 ### Phase-2 (Setup Backend with FastAPI)
 
-1. Setup Pydantic Model (Schema Validation).
+1. create a backend.py file and set up the Pydantic Model (Schema Validation).
 2. Setup AI Agnet from FrontEnd Request.
 3. Run the App and explore Swaggers UI docs.
-
+4. Install these Dependencies in phase-2 with pipenv:
+   `pipenv install fastapi uvicorn`
+   
 ### Phase-3 (Setup FrontEnd)
 
 1. Setup UI with Streamlit.
