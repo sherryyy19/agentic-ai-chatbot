@@ -46,7 +46,15 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 2. Setup AI Agnet from FrontEnd Request.
 3. Run the App and explore Swaggers UI docs.
 4. Install these Dependencies in phase-2 with pipenv:
-   `pipenv install pydantic` `fastapi` `uvicorn`
+   ```sh
+    pipenv install pydantic
+    ```
+   ```sh
+    pipenv install fastapi
+    ```
+   ```sh
+    pipenv install uvicorn
+    ```
    
 ### Phase-3 (Setup FrontEnd)
 
