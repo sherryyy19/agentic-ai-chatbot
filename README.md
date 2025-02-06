@@ -14,6 +14,7 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 ### Using Pipenv
 1. Install Pipenv (if not already installed):
+
    `pip install pipenv`
 
 ### Phase-1 (Create AI Agent)
