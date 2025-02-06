@@ -67,7 +67,7 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 1. Create a **frontend.py** file and set up UI with Streamlit.
 2. Connect with the backend via URL.
-3. Install these Dependencies in phase-3 with pipenv:
+3. Install this Dependency in phase-3 with pipenv:
    ```sh
     pipenv install streamlit
     ```
