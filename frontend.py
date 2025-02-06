@@ -46,9 +46,9 @@ API_URL="http://127.0.0.1:9999/chat"
 
 if st.button("Ask Agent!"):
     if user_query.strip():
-        #Step2: Connect with backend via URL
+        # Step-2 --> Connect with backend via URL
         import requests
-
+        # payload == RequestState
         payload={
             "model_name": selected_model,
             "model_provider": provider,
