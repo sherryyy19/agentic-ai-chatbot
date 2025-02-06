@@ -1,7 +1,7 @@
 # ********** Phase-2 (Setup Backend with FastAPI) **************
 
 
-# Step1 --> Setup Pydantic Model (Schema Validation)
+# Step-1 --> Setup Pydantic Model (Schema Validation)
 from pydantic import BaseModel
 from typing import List
 
@@ -13,7 +13,7 @@ class RequestState(BaseModel):
     allow_search: bool
 
 
-# Step2 --> Setup AI Agent from FrontEnd Request
+# Step-2 --> Setup AI Agent from FrontEnd Request
 from fastapi import FastAPI
 from ai_agent import get_response_from_ai_agent
 
@@ -40,7 +40,7 @@ def chat_endpoint(request: RequestState):
     response=get_response_from_ai_agent(llm_id, query, allow_search, system_prompt, provider)
     return response
 
-# Step3 --> Run app & Explore Swagger UI Docs
+# Step-3 --> Run app & Explore Swagger UI Docs
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=9999)
