@@ -27,7 +27,18 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 1. Create an ai_agent.py file, and set up LLM Tools and AI Agent with Search Tool Functionality.
 2. Install these Dependencies in phase-1 with pipenv:
-   `pipenv install langchain_groq` `langchain_openai` `langchain_community` `langgraph`
+   ```sh
+    pipenv install langchain_groq
+    ```
+   ```sh
+    pipenv install langchain_openai
+    ```
+   ```sh
+    pipenv install langchain_community
+    ```
+    ```sh
+    pipenv install langgraph
+    ```
 
 ### Phase-2 (Setup Backend with FastAPI)
 
