@@ -12,7 +12,7 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 ## Architectural Diagram
 <p align="center">
-  <img alt="Architectural Diagram" width="700" src="https://github.com/sherryyy19/Agentic-AI-Chatbot/blob/main/architecture%20diagram.png?raw=true">
+  <img alt="Architectural Diagram" width="550" src="https://github.com/sherryyy19/Agentic-AI-Chatbot/blob/main/architecture%20diagram.png?raw=true">
 </p>
 
 **Figure:** This diagram illustrates the architecture of our AI chatbot project.
