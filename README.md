@@ -17,6 +17,9 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
    `pip install pipenv`
 
+2. Install Dependencies with Pipenv:
+   `langchain_groq`   `langchain_openai`   `langchain_community`   `langgraph`
+
 ### Phase-1 (Create AI Agent)
 
 1. Setup API Keys for Groq, Tavily, and OpenAI.
