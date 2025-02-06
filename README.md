@@ -66,7 +66,8 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
     ```
 
 ## Note:
-#### Make sure the backend Python script is running in a separate terminal and load environment variables using: `pipenv shell` 
+Make sure the backend Python script is running in a separate terminal and load environment variables using: `pipenv shell` 
+
 
 ## Tools & Technologies
 
