@@ -43,6 +43,9 @@ Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
 3. Install these Dependencies in phase-3 with pipenv:
    `pipenv install streamlit`
 
+## Note:
+Make sure the backend Python script is running in a separate terminal and load environment variables using: `pipenv shell` 
+
 ## Tools & Technologies
 
 * LangGraph ReAct Agents
