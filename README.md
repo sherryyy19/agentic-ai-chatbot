@@ -13,9 +13,12 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
 ## Phase -1 (Create AI Agent)
 
-1. Setup API Keys for Groq & Tavily.
+1. Setup API Keys for Groq, Tavily, and OpenAI.
 2. Setup LLM Tools.
 3. Setup AI Agent with Search Tool Functionality.
+
+`pipenv install langchain_groq langchain_openai langchain_community`
+`pipenv install langgraph`
 
 ## Phase -2 (Setup Backend with FastAPI)
 
