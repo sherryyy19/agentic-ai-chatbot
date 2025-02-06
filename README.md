@@ -11,7 +11,6 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 - Uses LangChain and LangGraph for intelligent agent interactions.
 
 ## Architectural Diagram
-Below is the architectural diagram of the project:
 <p align="center">
   <img alt="Architectural Diagram" width="400" src="https://github.com/sherryyy19/Agentic-AI-Chatbot/blob/main/architecture%20diagram.png?raw=true">
 </p>
