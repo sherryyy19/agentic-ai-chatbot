@@ -17,11 +17,10 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
 
    `pip install pipenv`
 
-2. Use this command to load environment variables: `pipenv shell` 
-
 ### .env File
 
-Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
+* Create a .env file to store your private API keys for Groq, Tavily, and OpenAI.
+* Use this command to load environment variables: `pipenv shell` 
 ### Phase-1 (Create AI Agent)
 
 1. Create an ai_agent.py file, and set up LLM Tools and AI Agent with Search Tool Functionality.
