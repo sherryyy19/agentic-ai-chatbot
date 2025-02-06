@@ -4,11 +4,11 @@
 The **Agentic AI Chatbot application** allows users to interact with AI-powered agents using advanced LLMs. It integrates **LangGraph, FastAPI, Streamlit, and Tavily Search** for an interactive chatbot experience with optional web search capabilities.
 
 ## Features
-- Upload multiple PDF files.
-- Extract and process text from uploaded documents.
-- Ask context-specific questions and get detailed answers.
-- Uses Gemini LLM for high-quality, accurate responses.
-- Provides a user-friendly Streamlit interface.
+- Select AI models from Groq (Llama-3.3, Mixtral-8x7b) or OpenAI (GPT-4o-mini).
+- Chat with AI agents using a user-friendly Streamlit interface.
+- You can enable web search functionality to gather more relevant responses.
+- The backend is built with FastAPI for scalability and efficiency.
+- Uses LangChain and LangGraph for intelligent agent interactions.
 
 
 ## Phase -1 (Create AI Agent)
