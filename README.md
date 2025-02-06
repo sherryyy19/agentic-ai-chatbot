@@ -65,10 +65,10 @@ The **Agentic AI Chatbot application** allows users to interact with AI-powered 
     pipenv install streamlit
     ```
 
-## Note:
+## How to Run:
 * First load environment variables using: `pipenv shell`
 * Make sure the backend Python script is running in a separate terminal using the command: `python backend.py`
-* Then run the frontend program using command: `streamlit run frontend.py`
+* Then run the frontend file using the command: `streamlit run frontend.py`
 
 ## Tools & Technologies
 
