@@ -32,7 +32,7 @@ def get_response_from_ai_agent(llm_id, query, allow_search, system_prompt, provi
     if provider == "Groq":
         llm = ChatGroq(model=llm_id)
     elif provider == "OpenAI":
-        llm =C hatOpenAI(model=llm_id)
+        llm = ChatOpenAI(model=llm_id)
 
     tools = [TavilySearchResults(max_results=2)] if allow_search else []
     # creating AI agent
